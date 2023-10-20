@@ -7,7 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22B932D52ADDFF7A00031097 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932D42ADDFF7A00031097 /* main.swift */; };
+		2261AE622AE1AB270042CF24 /* TerminalInput_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE612AE1AB270042CF24 /* TerminalInput_spec.swift */; };
+		2261AE632AE1AB270042CF24 /* TerminalInput_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE612AE1AB270042CF24 /* TerminalInput_spec.swift */; };
+		2261AE6B2AE1CC780042CF24 /* SuppressStdinStdout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE6A2AE1CC780042CF24 /* SuppressStdinStdout.swift */; };
+		2261AE6C2AE1CC780042CF24 /* SuppressStdinStdout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE6A2AE1CC780042CF24 /* SuppressStdinStdout.swift */; };
+		2261AE6E2AE1E59F0042CF24 /* HumanVsAi_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE6D2AE1E59F0042CF24 /* HumanVsAi_spec.swift */; };
+		2261AE6F2AE1E59F0042CF24 /* HumanVsAi_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE6D2AE1E59F0042CF24 /* HumanVsAi_spec.swift */; };
+		22B932DC2ADDFFA400031097 /* IDisplayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932DB2ADDFFA400031097 /* IDisplayType.swift */; };
+		22B932DE2ADDFFC600031097 /* TerminalDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932DD2ADDFFC600031097 /* TerminalDisplay.swift */; };
+		22B932E02ADE485600031097 /* IBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932DF2ADE485600031097 /* IBoard.swift */; };
+		22B932E22ADE503800031097 /* ThreeByThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932E12ADE503800031097 /* ThreeByThree.swift */; };
+		22B932E42ADEF6A700031097 /* GameMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932E32ADEF6A700031097 /* GameMaster.swift */; };
+		22B932E82ADEFACF00031097 /* UniversalBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932E72ADEFACF00031097 /* UniversalBoard.swift */; };
+		22B932EC2ADEFDA000031097 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932EB2ADEFDA000031097 /* Player.swift */; };
+		22B932EE2ADF00FB00031097 /* IUserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932ED2ADF00FB00031097 /* IUserInput.swift */; };
+		22B932F02ADF048500031097 /* TerminalInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932EF2ADF048500031097 /* TerminalInput.swift */; };
+		22B932F22ADF21AA00031097 /* AiPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932F12ADF21AA00031097 /* AiPlayer.swift */; };
+		22B932F42ADF278900031097 /* ITTTAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932F32ADF278900031097 /* ITTTAlgorithm.swift */; };
+		22B932F62ADF289500031097 /* MinMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932F52ADF289500031097 /* MinMax.swift */; };
+		22B932F82ADF315100031097 /* IDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932F72ADF315100031097 /* IDifficulty.swift */; };
+		22B932FA2ADF32C600031097 /* Unbeatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932F92ADF32C600031097 /* Unbeatable.swift */; };
+		22B932FE2ADF601D00031097 /* HumanVsAi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932FD2ADF601D00031097 /* HumanVsAi.swift */; };
+		22B933452AE06B3800031097 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933442AE06B3800031097 /* main.swift */; };
+		22B9336B2AE079FF00031097 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9336A2AE079FF00031097 /* main.swift */; };
+		22B933702AE07AEF00031097 /* TestAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9336F2AE07AEF00031097 /* TestAssertions.swift */; };
+		22B933782AE07E5A00031097 /* Three_by_Three_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933752AE07CC300031097 /* Three_by_Three_spec.swift */; };
+		22B933792AE07F8E00031097 /* Three_by_Three_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933752AE07CC300031097 /* Three_by_Three_spec.swift */; };
+		22B9337A2AE0807E00031097 /* ThreeByThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932E12ADE503800031097 /* ThreeByThree.swift */; };
+		22B9337B2AE0808A00031097 /* ITTTAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932F32ADF278900031097 /* ITTTAlgorithm.swift */; };
+		22B9337C2AE0808C00031097 /* IDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932F72ADF315100031097 /* IDifficulty.swift */; };
+		22B9337D2AE0808F00031097 /* Unbeatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932F92ADF32C600031097 /* Unbeatable.swift */; };
+		22B9337E2AE0809200031097 /* MinMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932F52ADF289500031097 /* MinMax.swift */; };
+		22B9337F2AE0809500031097 /* GameMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932E32ADEF6A700031097 /* GameMaster.swift */; };
+		22B933812AE0809900031097 /* HumanVsAi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932FD2ADF601D00031097 /* HumanVsAi.swift */; };
+		22B933822AE0809B00031097 /* TerminalInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932EF2ADF048500031097 /* TerminalInput.swift */; };
+		22B933832AE0809F00031097 /* IUserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932ED2ADF00FB00031097 /* IUserInput.swift */; };
+		22B933842AE080A200031097 /* IBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932DF2ADE485600031097 /* IBoard.swift */; };
+		22B933862AE080A900031097 /* AiPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932F12ADF21AA00031097 /* AiPlayer.swift */; };
+		22B933872AE080AC00031097 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932EB2ADEFDA000031097 /* Player.swift */; };
+		22B933882AE080B000031097 /* UniversalBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932E72ADEFACF00031097 /* UniversalBoard.swift */; };
+		22B933892AE080B300031097 /* TerminalDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932DD2ADDFFC600031097 /* TerminalDisplay.swift */; };
+		22B9338A2AE080B600031097 /* IDisplayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932DB2ADDFFA400031097 /* IDisplayType.swift */; };
+		22B9338C2AE0895700031097 /* Universal_board_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9338B2AE0895700031097 /* Universal_board_spec.swift */; };
+		22B9338D2AE0895700031097 /* Universal_board_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9338B2AE0895700031097 /* Universal_board_spec.swift */; };
+		22B9338E2AE0907C00031097 /* TestAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9336F2AE07AEF00031097 /* TestAssertions.swift */; };
+		22B933902AE0A20700031097 /* TerminalDisplay_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9338F2AE0A20700031097 /* TerminalDisplay_spec.swift */; };
+		22B933912AE0A20700031097 /* TerminalDisplay_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9338F2AE0A20700031097 /* TerminalDisplay_spec.swift */; };
+		22B933932AE0AD6700031097 /* GameMaster_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933922AE0AD6700031097 /* GameMaster_spec.swift */; };
+		22B933942AE0AD6700031097 /* GameMaster_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933922AE0AD6700031097 /* GameMaster_spec.swift */; };
+		22B933962AE0B9BC00031097 /* Ai_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933952AE0B9BC00031097 /* Ai_spec.swift */; };
+		22B933972AE0B9BC00031097 /* Ai_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933952AE0B9BC00031097 /* Ai_spec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,15 +69,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		22B933662AE079FF00031097 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2261AE612AE1AB270042CF24 /* TerminalInput_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalInput_spec.swift; sourceTree = "<group>"; };
+		2261AE6A2AE1CC780042CF24 /* SuppressStdinStdout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuppressStdinStdout.swift; sourceTree = "<group>"; };
+		2261AE6D2AE1E59F0042CF24 /* HumanVsAi_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanVsAi_spec.swift; sourceTree = "<group>"; };
 		22B932D12ADDFF7A00031097 /* SwiftTTT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftTTT; sourceTree = BUILT_PRODUCTS_DIR; };
-		22B932D42ADDFF7A00031097 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22B932DB2ADDFFA400031097 /* IDisplayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplayType.swift; sourceTree = "<group>"; };
+		22B932DD2ADDFFC600031097 /* TerminalDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalDisplay.swift; sourceTree = "<group>"; };
+		22B932DF2ADE485600031097 /* IBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBoard.swift; sourceTree = "<group>"; };
+		22B932E12ADE503800031097 /* ThreeByThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeByThree.swift; sourceTree = "<group>"; };
+		22B932E32ADEF6A700031097 /* GameMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMaster.swift; sourceTree = "<group>"; };
+		22B932E72ADEFACF00031097 /* UniversalBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalBoard.swift; sourceTree = "<group>"; };
+		22B932EB2ADEFDA000031097 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		22B932ED2ADF00FB00031097 /* IUserInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUserInput.swift; sourceTree = "<group>"; };
+		22B932EF2ADF048500031097 /* TerminalInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalInput.swift; sourceTree = "<group>"; };
+		22B932F12ADF21AA00031097 /* AiPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiPlayer.swift; sourceTree = "<group>"; };
+		22B932F32ADF278900031097 /* ITTTAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITTTAlgorithm.swift; sourceTree = "<group>"; };
+		22B932F52ADF289500031097 /* MinMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinMax.swift; sourceTree = "<group>"; };
+		22B932F72ADF315100031097 /* IDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDifficulty.swift; sourceTree = "<group>"; };
+		22B932F92ADF32C600031097 /* Unbeatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unbeatable.swift; sourceTree = "<group>"; };
+		22B932FD2ADF601D00031097 /* HumanVsAi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanVsAi.swift; sourceTree = "<group>"; };
+		22B933442AE06B3800031097 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22B933682AE079FF00031097 /* Spec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Spec; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B9336A2AE079FF00031097 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		22B9336F2AE07AEF00031097 /* TestAssertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAssertions.swift; sourceTree = "<group>"; };
+		22B933752AE07CC300031097 /* Three_by_Three_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_by_Three_spec.swift; sourceTree = "<group>"; };
+		22B9338B2AE0895700031097 /* Universal_board_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Universal_board_spec.swift; sourceTree = "<group>"; };
+		22B9338F2AE0A20700031097 /* TerminalDisplay_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalDisplay_spec.swift; sourceTree = "<group>"; };
+		22B933922AE0AD6700031097 /* GameMaster_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMaster_spec.swift; sourceTree = "<group>"; };
+		22B933952AE0B9BC00031097 /* Ai_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ai_spec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		22B932CE2ADDFF7A00031097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B933652AE079FF00031097 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +132,7 @@
 		22B932C82ADDFF7A00031097 = {
 			isa = PBXGroup;
 			children = (
+				22B933692AE079FF00031097 /* Spec */,
 				22B932D32ADDFF7A00031097 /* SwiftTTT */,
 				22B932D22ADDFF7A00031097 /* Products */,
 			);
@@ -50,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				22B932D12ADDFF7A00031097 /* SwiftTTT */,
+				22B933682AE079FF00031097 /* Spec */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +150,49 @@
 		22B932D32ADDFF7A00031097 /* SwiftTTT */ = {
 			isa = PBXGroup;
 			children = (
-				22B932D42ADDFF7A00031097 /* main.swift */,
+				22B932FF2AE04A8700031097 /* src */,
 			);
 			path = SwiftTTT;
+			sourceTree = "<group>";
+		};
+		22B932FF2AE04A8700031097 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				22B932F32ADF278900031097 /* ITTTAlgorithm.swift */,
+				22B932F52ADF289500031097 /* MinMax.swift */,
+				22B932F72ADF315100031097 /* IDifficulty.swift */,
+				22B932F92ADF32C600031097 /* Unbeatable.swift */,
+				22B932E32ADEF6A700031097 /* GameMaster.swift */,
+				22B932FD2ADF601D00031097 /* HumanVsAi.swift */,
+				22B932ED2ADF00FB00031097 /* IUserInput.swift */,
+				22B932EF2ADF048500031097 /* TerminalInput.swift */,
+				22B932DF2ADE485600031097 /* IBoard.swift */,
+				22B932E12ADE503800031097 /* ThreeByThree.swift */,
+				22B932E72ADEFACF00031097 /* UniversalBoard.swift */,
+				22B932EB2ADEFDA000031097 /* Player.swift */,
+				22B932F12ADF21AA00031097 /* AiPlayer.swift */,
+				22B932DD2ADDFFC600031097 /* TerminalDisplay.swift */,
+				22B932DB2ADDFFA400031097 /* IDisplayType.swift */,
+				22B933442AE06B3800031097 /* main.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		22B933692AE079FF00031097 /* Spec */ = {
+			isa = PBXGroup;
+			children = (
+				22B9336A2AE079FF00031097 /* main.swift */,
+				2261AE6A2AE1CC780042CF24 /* SuppressStdinStdout.swift */,
+				22B9336F2AE07AEF00031097 /* TestAssertions.swift */,
+				22B933752AE07CC300031097 /* Three_by_Three_spec.swift */,
+				22B9338B2AE0895700031097 /* Universal_board_spec.swift */,
+				22B9338F2AE0A20700031097 /* TerminalDisplay_spec.swift */,
+				2261AE6D2AE1E59F0042CF24 /* HumanVsAi_spec.swift */,
+				22B933922AE0AD6700031097 /* GameMaster_spec.swift */,
+				22B933952AE0B9BC00031097 /* Ai_spec.swift */,
+				2261AE612AE1AB270042CF24 /* TerminalInput_spec.swift */,
+			);
+			path = Spec;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +215,23 @@
 			productReference = 22B932D12ADDFF7A00031097 /* SwiftTTT */;
 			productType = "com.apple.product-type.tool";
 		};
+		22B933672AE079FF00031097 /* Spec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B9336C2AE079FF00031097 /* Build configuration list for PBXNativeTarget "Spec" */;
+			buildPhases = (
+				22B933642AE079FF00031097 /* Sources */,
+				22B933652AE079FF00031097 /* Frameworks */,
+				22B933662AE079FF00031097 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spec;
+			productName = Spec;
+			productReference = 22B933682AE079FF00031097 /* Spec */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +243,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					22B932D02ADDFF7A00031097 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					22B933672AE079FF00031097 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -111,6 +264,7 @@
 			projectRoot = "";
 			targets = (
 				22B932D02ADDFF7A00031097 /* SwiftTTT */,
+				22B933672AE079FF00031097 /* Spec */,
 			);
 		};
 /* End PBXProject section */
@@ -120,7 +274,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22B932D52ADDFF7A00031097 /* main.swift in Sources */,
+				22B9338E2AE0907C00031097 /* TestAssertions.swift in Sources */,
+				2261AE622AE1AB270042CF24 /* TerminalInput_spec.swift in Sources */,
+				22B932DE2ADDFFC600031097 /* TerminalDisplay.swift in Sources */,
+				22B932F62ADF289500031097 /* MinMax.swift in Sources */,
+				22B933452AE06B3800031097 /* main.swift in Sources */,
+				22B933962AE0B9BC00031097 /* Ai_spec.swift in Sources */,
+				22B932F42ADF278900031097 /* ITTTAlgorithm.swift in Sources */,
+				2261AE6E2AE1E59F0042CF24 /* HumanVsAi_spec.swift in Sources */,
+				22B932EE2ADF00FB00031097 /* IUserInput.swift in Sources */,
+				22B932E82ADEFACF00031097 /* UniversalBoard.swift in Sources */,
+				22B932EC2ADEFDA000031097 /* Player.swift in Sources */,
+				22B9338C2AE0895700031097 /* Universal_board_spec.swift in Sources */,
+				22B932F22ADF21AA00031097 /* AiPlayer.swift in Sources */,
+				22B932DC2ADDFFA400031097 /* IDisplayType.swift in Sources */,
+				22B933902AE0A20700031097 /* TerminalDisplay_spec.swift in Sources */,
+				22B932F02ADF048500031097 /* TerminalInput.swift in Sources */,
+				22B933932AE0AD6700031097 /* GameMaster_spec.swift in Sources */,
+				22B932E22ADE503800031097 /* ThreeByThree.swift in Sources */,
+				22B932E02ADE485600031097 /* IBoard.swift in Sources */,
+				22B932F82ADF315100031097 /* IDifficulty.swift in Sources */,
+				22B932FA2ADF32C600031097 /* Unbeatable.swift in Sources */,
+				22B933782AE07E5A00031097 /* Three_by_Three_spec.swift in Sources */,
+				22B932FE2ADF601D00031097 /* HumanVsAi.swift in Sources */,
+				2261AE6B2AE1CC780042CF24 /* SuppressStdinStdout.swift in Sources */,
+				22B932E42ADEF6A700031097 /* GameMaster.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B933642AE079FF00031097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B933882AE080B000031097 /* UniversalBoard.swift in Sources */,
+				2261AE632AE1AB270042CF24 /* TerminalInput_spec.swift in Sources */,
+				22B933862AE080A900031097 /* AiPlayer.swift in Sources */,
+				22B933892AE080B300031097 /* TerminalDisplay.swift in Sources */,
+				22B9337A2AE0807E00031097 /* ThreeByThree.swift in Sources */,
+				22B933972AE0B9BC00031097 /* Ai_spec.swift in Sources */,
+				22B933812AE0809900031097 /* HumanVsAi.swift in Sources */,
+				2261AE6F2AE1E59F0042CF24 /* HumanVsAi_spec.swift in Sources */,
+				22B933842AE080A200031097 /* IBoard.swift in Sources */,
+				22B9338D2AE0895700031097 /* Universal_board_spec.swift in Sources */,
+				22B933872AE080AC00031097 /* Player.swift in Sources */,
+				22B9337E2AE0809200031097 /* MinMax.swift in Sources */,
+				22B9337F2AE0809500031097 /* GameMaster.swift in Sources */,
+				22B933792AE07F8E00031097 /* Three_by_Three_spec.swift in Sources */,
+				22B933912AE0A20700031097 /* TerminalDisplay_spec.swift in Sources */,
+				22B9338A2AE080B600031097 /* IDisplayType.swift in Sources */,
+				22B933942AE0AD6700031097 /* GameMaster_spec.swift in Sources */,
+				22B9337D2AE0808F00031097 /* Unbeatable.swift in Sources */,
+				22B933832AE0809F00031097 /* IUserInput.swift in Sources */,
+				22B933822AE0809B00031097 /* TerminalInput.swift in Sources */,
+				22B933702AE07AEF00031097 /* TestAssertions.swift in Sources */,
+				22B9337B2AE0808A00031097 /* ITTTAlgorithm.swift in Sources */,
+				22B9337C2AE0808C00031097 /* IDifficulty.swift in Sources */,
+				2261AE6C2AE1CC780042CF24 /* SuppressStdinStdout.swift in Sources */,
+				22B9336B2AE079FF00031097 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +372,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -225,6 +436,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -249,12 +461,34 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				PRODUCT_MODULE_NAME = SwiftTTT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		22B932DA2ADDFF7A00031097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				PRODUCT_MODULE_NAME = SwiftTTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		22B9336D2AE079FF00031097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		22B9336E2AE079FF00031097 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -280,6 +514,15 @@
 			buildConfigurations = (
 				22B932D92ADDFF7A00031097 /* Debug */,
 				22B932DA2ADDFF7A00031097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B9336C2AE079FF00031097 /* Build configuration list for PBXNativeTarget "Spec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B9336D2AE079FF00031097 /* Debug */,
+				22B9336E2AE079FF00031097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
