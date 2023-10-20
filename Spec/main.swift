@@ -1,7 +1,7 @@
 import Foundation
 func run_tests() {
     print("Board Tests\n")
-    let three_by_three_board_test = Three_by_Three_spec()
+    let three_by_three_board_test = ThreeByThreeSpec()
     three_by_three_board_test.test_init_board()
     three_by_three_board_test.test_check_win_blank()
     three_by_three_board_test.test_check_win_rows()

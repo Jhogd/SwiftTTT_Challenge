@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2261AE622AE1AB270042CF24 /* TerminalInput_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE612AE1AB270042CF24 /* TerminalInput_spec.swift */; };
-		2261AE632AE1AB270042CF24 /* TerminalInput_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE612AE1AB270042CF24 /* TerminalInput_spec.swift */; };
+		2261AE622AE1AB270042CF24 /* TerminalInputSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE612AE1AB270042CF24 /* TerminalInputSpec.swift */; };
+		2261AE632AE1AB270042CF24 /* TerminalInputSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE612AE1AB270042CF24 /* TerminalInputSpec.swift */; };
 		2261AE6B2AE1CC780042CF24 /* SuppressStdinStdout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE6A2AE1CC780042CF24 /* SuppressStdinStdout.swift */; };
 		2261AE6C2AE1CC780042CF24 /* SuppressStdinStdout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE6A2AE1CC780042CF24 /* SuppressStdinStdout.swift */; };
-		2261AE6E2AE1E59F0042CF24 /* HumanVsAi_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE6D2AE1E59F0042CF24 /* HumanVsAi_spec.swift */; };
-		2261AE6F2AE1E59F0042CF24 /* HumanVsAi_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE6D2AE1E59F0042CF24 /* HumanVsAi_spec.swift */; };
+		2261AE6E2AE1E59F0042CF24 /* HumanVsAiSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE6D2AE1E59F0042CF24 /* HumanVsAiSpec.swift */; };
+		2261AE6F2AE1E59F0042CF24 /* HumanVsAiSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261AE6D2AE1E59F0042CF24 /* HumanVsAiSpec.swift */; };
 		22B932DC2ADDFFA400031097 /* IDisplayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932DB2ADDFFA400031097 /* IDisplayType.swift */; };
 		22B932DE2ADDFFC600031097 /* TerminalDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932DD2ADDFFC600031097 /* TerminalDisplay.swift */; };
 		22B932E02ADE485600031097 /* IBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932DF2ADE485600031097 /* IBoard.swift */; };
@@ -31,8 +31,8 @@
 		22B933452AE06B3800031097 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933442AE06B3800031097 /* main.swift */; };
 		22B9336B2AE079FF00031097 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9336A2AE079FF00031097 /* main.swift */; };
 		22B933702AE07AEF00031097 /* TestAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9336F2AE07AEF00031097 /* TestAssertions.swift */; };
-		22B933782AE07E5A00031097 /* Three_by_Three_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933752AE07CC300031097 /* Three_by_Three_spec.swift */; };
-		22B933792AE07F8E00031097 /* Three_by_Three_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933752AE07CC300031097 /* Three_by_Three_spec.swift */; };
+		22B933782AE07E5A00031097 /* ThreeByThreeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933752AE07CC300031097 /* ThreeByThreeSpec.swift */; };
+		22B933792AE07F8E00031097 /* ThreeByThreeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933752AE07CC300031097 /* ThreeByThreeSpec.swift */; };
 		22B9337A2AE0807E00031097 /* ThreeByThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932E12ADE503800031097 /* ThreeByThree.swift */; };
 		22B9337B2AE0808A00031097 /* ITTTAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932F32ADF278900031097 /* ITTTAlgorithm.swift */; };
 		22B9337C2AE0808C00031097 /* IDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932F72ADF315100031097 /* IDifficulty.swift */; };
@@ -48,15 +48,15 @@
 		22B933882AE080B000031097 /* UniversalBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932E72ADEFACF00031097 /* UniversalBoard.swift */; };
 		22B933892AE080B300031097 /* TerminalDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932DD2ADDFFC600031097 /* TerminalDisplay.swift */; };
 		22B9338A2AE080B600031097 /* IDisplayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B932DB2ADDFFA400031097 /* IDisplayType.swift */; };
-		22B9338C2AE0895700031097 /* Universal_board_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9338B2AE0895700031097 /* Universal_board_spec.swift */; };
-		22B9338D2AE0895700031097 /* Universal_board_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9338B2AE0895700031097 /* Universal_board_spec.swift */; };
+		22B9338C2AE0895700031097 /* UniversalBoardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9338B2AE0895700031097 /* UniversalBoardSpec.swift */; };
+		22B9338D2AE0895700031097 /* UniversalBoardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9338B2AE0895700031097 /* UniversalBoardSpec.swift */; };
 		22B9338E2AE0907C00031097 /* TestAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9336F2AE07AEF00031097 /* TestAssertions.swift */; };
-		22B933902AE0A20700031097 /* TerminalDisplay_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9338F2AE0A20700031097 /* TerminalDisplay_spec.swift */; };
-		22B933912AE0A20700031097 /* TerminalDisplay_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9338F2AE0A20700031097 /* TerminalDisplay_spec.swift */; };
-		22B933932AE0AD6700031097 /* GameMaster_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933922AE0AD6700031097 /* GameMaster_spec.swift */; };
-		22B933942AE0AD6700031097 /* GameMaster_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933922AE0AD6700031097 /* GameMaster_spec.swift */; };
-		22B933962AE0B9BC00031097 /* Ai_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933952AE0B9BC00031097 /* Ai_spec.swift */; };
-		22B933972AE0B9BC00031097 /* Ai_spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933952AE0B9BC00031097 /* Ai_spec.swift */; };
+		22B933902AE0A20700031097 /* TerminalDisplaySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9338F2AE0A20700031097 /* TerminalDisplaySpec.swift */; };
+		22B933912AE0A20700031097 /* TerminalDisplaySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9338F2AE0A20700031097 /* TerminalDisplaySpec.swift */; };
+		22B933932AE0AD6700031097 /* GameMasterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933922AE0AD6700031097 /* GameMasterSpec.swift */; };
+		22B933942AE0AD6700031097 /* GameMasterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933922AE0AD6700031097 /* GameMasterSpec.swift */; };
+		22B933962AE0B9BC00031097 /* AiSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933952AE0B9BC00031097 /* AiSpec.swift */; };
+		22B933972AE0B9BC00031097 /* AiSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B933952AE0B9BC00031097 /* AiSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,9 +81,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2261AE612AE1AB270042CF24 /* TerminalInput_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalInput_spec.swift; sourceTree = "<group>"; };
+		2261AE612AE1AB270042CF24 /* TerminalInputSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalInputSpec.swift; sourceTree = "<group>"; };
 		2261AE6A2AE1CC780042CF24 /* SuppressStdinStdout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuppressStdinStdout.swift; sourceTree = "<group>"; };
-		2261AE6D2AE1E59F0042CF24 /* HumanVsAi_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanVsAi_spec.swift; sourceTree = "<group>"; };
+		2261AE6D2AE1E59F0042CF24 /* HumanVsAiSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanVsAiSpec.swift; sourceTree = "<group>"; };
 		22B932D12ADDFF7A00031097 /* SwiftTTT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftTTT; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B932DB2ADDFFA400031097 /* IDisplayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplayType.swift; sourceTree = "<group>"; };
 		22B932DD2ADDFFC600031097 /* TerminalDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalDisplay.swift; sourceTree = "<group>"; };
@@ -104,11 +104,11 @@
 		22B933682AE079FF00031097 /* Spec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Spec; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B9336A2AE079FF00031097 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		22B9336F2AE07AEF00031097 /* TestAssertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAssertions.swift; sourceTree = "<group>"; };
-		22B933752AE07CC300031097 /* Three_by_Three_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_by_Three_spec.swift; sourceTree = "<group>"; };
-		22B9338B2AE0895700031097 /* Universal_board_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Universal_board_spec.swift; sourceTree = "<group>"; };
-		22B9338F2AE0A20700031097 /* TerminalDisplay_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalDisplay_spec.swift; sourceTree = "<group>"; };
-		22B933922AE0AD6700031097 /* GameMaster_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMaster_spec.swift; sourceTree = "<group>"; };
-		22B933952AE0B9BC00031097 /* Ai_spec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ai_spec.swift; sourceTree = "<group>"; };
+		22B933752AE07CC300031097 /* ThreeByThreeSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeByThreeSpec.swift; sourceTree = "<group>"; };
+		22B9338B2AE0895700031097 /* UniversalBoardSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalBoardSpec.swift; sourceTree = "<group>"; };
+		22B9338F2AE0A20700031097 /* TerminalDisplaySpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalDisplaySpec.swift; sourceTree = "<group>"; };
+		22B933922AE0AD6700031097 /* GameMasterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMasterSpec.swift; sourceTree = "<group>"; };
+		22B933952AE0B9BC00031097 /* AiSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,13 +184,13 @@
 				22B9336A2AE079FF00031097 /* main.swift */,
 				2261AE6A2AE1CC780042CF24 /* SuppressStdinStdout.swift */,
 				22B9336F2AE07AEF00031097 /* TestAssertions.swift */,
-				22B933752AE07CC300031097 /* Three_by_Three_spec.swift */,
-				22B9338B2AE0895700031097 /* Universal_board_spec.swift */,
-				22B9338F2AE0A20700031097 /* TerminalDisplay_spec.swift */,
-				2261AE6D2AE1E59F0042CF24 /* HumanVsAi_spec.swift */,
-				22B933922AE0AD6700031097 /* GameMaster_spec.swift */,
-				22B933952AE0B9BC00031097 /* Ai_spec.swift */,
-				2261AE612AE1AB270042CF24 /* TerminalInput_spec.swift */,
+				22B933752AE07CC300031097 /* ThreeByThreeSpec.swift */,
+				22B9338B2AE0895700031097 /* UniversalBoardSpec.swift */,
+				22B9338F2AE0A20700031097 /* TerminalDisplaySpec.swift */,
+				2261AE6D2AE1E59F0042CF24 /* HumanVsAiSpec.swift */,
+				22B933922AE0AD6700031097 /* GameMasterSpec.swift */,
+				22B933952AE0B9BC00031097 /* AiSpec.swift */,
+				2261AE612AE1AB270042CF24 /* TerminalInputSpec.swift */,
 			);
 			path = Spec;
 			sourceTree = "<group>";
@@ -275,27 +275,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B9338E2AE0907C00031097 /* TestAssertions.swift in Sources */,
-				2261AE622AE1AB270042CF24 /* TerminalInput_spec.swift in Sources */,
+				2261AE622AE1AB270042CF24 /* TerminalInputSpec.swift in Sources */,
 				22B932DE2ADDFFC600031097 /* TerminalDisplay.swift in Sources */,
 				22B932F62ADF289500031097 /* MinMax.swift in Sources */,
 				22B933452AE06B3800031097 /* main.swift in Sources */,
-				22B933962AE0B9BC00031097 /* Ai_spec.swift in Sources */,
+				22B933962AE0B9BC00031097 /* AiSpec.swift in Sources */,
 				22B932F42ADF278900031097 /* ITTTAlgorithm.swift in Sources */,
-				2261AE6E2AE1E59F0042CF24 /* HumanVsAi_spec.swift in Sources */,
+				2261AE6E2AE1E59F0042CF24 /* HumanVsAiSpec.swift in Sources */,
 				22B932EE2ADF00FB00031097 /* IUserInput.swift in Sources */,
 				22B932E82ADEFACF00031097 /* UniversalBoard.swift in Sources */,
 				22B932EC2ADEFDA000031097 /* Player.swift in Sources */,
-				22B9338C2AE0895700031097 /* Universal_board_spec.swift in Sources */,
+				22B9338C2AE0895700031097 /* UniversalBoardSpec.swift in Sources */,
 				22B932F22ADF21AA00031097 /* AiPlayer.swift in Sources */,
 				22B932DC2ADDFFA400031097 /* IDisplayType.swift in Sources */,
-				22B933902AE0A20700031097 /* TerminalDisplay_spec.swift in Sources */,
+				22B933902AE0A20700031097 /* TerminalDisplaySpec.swift in Sources */,
 				22B932F02ADF048500031097 /* TerminalInput.swift in Sources */,
-				22B933932AE0AD6700031097 /* GameMaster_spec.swift in Sources */,
+				22B933932AE0AD6700031097 /* GameMasterSpec.swift in Sources */,
 				22B932E22ADE503800031097 /* ThreeByThree.swift in Sources */,
 				22B932E02ADE485600031097 /* IBoard.swift in Sources */,
 				22B932F82ADF315100031097 /* IDifficulty.swift in Sources */,
 				22B932FA2ADF32C600031097 /* Unbeatable.swift in Sources */,
-				22B933782AE07E5A00031097 /* Three_by_Three_spec.swift in Sources */,
+				22B933782AE07E5A00031097 /* ThreeByThreeSpec.swift in Sources */,
 				22B932FE2ADF601D00031097 /* HumanVsAi.swift in Sources */,
 				2261AE6B2AE1CC780042CF24 /* SuppressStdinStdout.swift in Sources */,
 				22B932E42ADEF6A700031097 /* GameMaster.swift in Sources */,
@@ -307,22 +307,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B933882AE080B000031097 /* UniversalBoard.swift in Sources */,
-				2261AE632AE1AB270042CF24 /* TerminalInput_spec.swift in Sources */,
+				2261AE632AE1AB270042CF24 /* TerminalInputSpec.swift in Sources */,
 				22B933862AE080A900031097 /* AiPlayer.swift in Sources */,
 				22B933892AE080B300031097 /* TerminalDisplay.swift in Sources */,
 				22B9337A2AE0807E00031097 /* ThreeByThree.swift in Sources */,
-				22B933972AE0B9BC00031097 /* Ai_spec.swift in Sources */,
+				22B933972AE0B9BC00031097 /* AiSpec.swift in Sources */,
 				22B933812AE0809900031097 /* HumanVsAi.swift in Sources */,
-				2261AE6F2AE1E59F0042CF24 /* HumanVsAi_spec.swift in Sources */,
+				2261AE6F2AE1E59F0042CF24 /* HumanVsAiSpec.swift in Sources */,
 				22B933842AE080A200031097 /* IBoard.swift in Sources */,
-				22B9338D2AE0895700031097 /* Universal_board_spec.swift in Sources */,
+				22B9338D2AE0895700031097 /* UniversalBoardSpec.swift in Sources */,
 				22B933872AE080AC00031097 /* Player.swift in Sources */,
 				22B9337E2AE0809200031097 /* MinMax.swift in Sources */,
 				22B9337F2AE0809500031097 /* GameMaster.swift in Sources */,
-				22B933792AE07F8E00031097 /* Three_by_Three_spec.swift in Sources */,
-				22B933912AE0A20700031097 /* TerminalDisplay_spec.swift in Sources */,
+				22B933792AE07F8E00031097 /* ThreeByThreeSpec.swift in Sources */,
+				22B933912AE0A20700031097 /* TerminalDisplaySpec.swift in Sources */,
 				22B9338A2AE080B600031097 /* IDisplayType.swift in Sources */,
-				22B933942AE0AD6700031097 /* GameMaster_spec.swift in Sources */,
+				22B933942AE0AD6700031097 /* GameMasterSpec.swift in Sources */,
 				22B9337D2AE0808F00031097 /* Unbeatable.swift in Sources */,
 				22B933832AE0809F00031097 /* IUserInput.swift in Sources */,
 				22B933822AE0809B00031097 /* TerminalInput.swift in Sources */,

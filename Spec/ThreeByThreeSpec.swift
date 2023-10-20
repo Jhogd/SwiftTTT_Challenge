@@ -1,5 +1,5 @@
 import Foundation
-class Three_by_Three_spec {
+class ThreeByThreeSpec {
     let unit_test = TestAssertions()
     let board_handler = ThreebyThree()
     let blank_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
