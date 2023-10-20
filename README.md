@@ -16,13 +16,13 @@ Xcode should be seen in the app store
 
 
 ### Run Tests
-In the middle of the screen in Xcode you will see a dropdown labeled Spec or SwiftTTT. Click the dropdown and select Spec target
+In the upper middle of the screen in Xcode you will see a dropdown labeled Spec or SwiftTTT. Click the dropdown and select Spec target
 
     Hit the play button in the upper left and all tests will run
     
 
 ### Play Game
-In the middle of the screen in Xcode you will see a dropdown labeled Spec or SwiftTTT. Click the dropdown and select SwiftTTT target
+In the upper middle of the screen in Xcode you will see a dropdown labeled Spec or SwiftTTT. Click the dropdown and select SwiftTTT target
 
     Hit the play button in the upper left and the game will start
 
